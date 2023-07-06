@@ -95,7 +95,7 @@ botonBuscar.addEventListener("click", function () {
     } else {
         const propiedadesFiltradas = propiedadesJSONMain.filter(
             (propiedad) =>
-        propiedad.rooms >= parseInt(cuartosInput) &&
+        propiedad.rooms === parseInt(cuartosInput) &&
         propiedad.m >= parseInt(desdeInput) &&
         propiedad.m <= parseInt(hastaInput)
     );
