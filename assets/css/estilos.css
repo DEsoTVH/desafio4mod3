@@ -36,6 +36,7 @@ nav div{
     gap: 45px
 }
 .propiedad{ 
+    height: -webkit-fill-available;
     margin: auto;
     background: rgba(209, 106, 106, 0.068);
     box-shadow: 0px 0px 7px 1px rgba(204, 255, 145, 0.39);
